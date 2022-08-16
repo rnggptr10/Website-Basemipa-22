@@ -1,0 +1,84 @@
+.box-form{
+    background-color: #FAFAFA;
+    width: 35%;
+    margin: 0 auto;
+    border-radius: 5px;
+    /* code di bawah ini akan membuat div berada di tengah-tengah */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.logo-bem{
+    margin-top: 25px;
+}
+
+.logo-bem p{
+    margin: 0 auto;
+    width: max-content;
+    color: #6D1D1D;
+    font-size: 14px;
+}
+
+.logo-bem img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.label-login{
+    padding:20px 80px;
+}
+
+.sub-btn{
+    display: block;
+    margin: 0 auto;
+    background-color: #E06B1E;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 2px 2px 1px grey;
+}
+
+.mb-3 a{
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    width: max-content;
+    text-decoration: none;
+}
+
+.t{
+    border-bottom: 2px solid #000;
+}
+
+.form-label{
+    font-size: 14px;
+}
+
+/* ------------------------
+    Style Buat Responsif
+   ------------------------
+*/
+
+/* Setengah Layar Browser */
+@media screen and (max-width: 800px) {
+    .box-form{
+        width: 50%;
+    }
+
+
+
+    footer img{
+        width: 200px;
+    }
+}
+
+/* Layar HP */

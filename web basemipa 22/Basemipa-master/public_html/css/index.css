@@ -1,0 +1,155 @@
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.box-form{
+    background-color: #FAFAFA;
+    width: 35%;
+    margin: 0 auto;
+    border-radius: 5px;
+    /* code di bawah ini akan membuat div berada di tengah-tengah */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.content-box{
+    display: grid;
+    width: 60%;
+    grid-template-columns: auto auto auto;
+    padding: 20px;
+    /* background-color: #6D1D1D; */
+    /* border: #6D1D1D solid; */
+    color: black;
+
+    /* code di bawah ini akan membuat div berada di tengah-tengah */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+    
+.box-container{
+  padding: 20px;
+  font-size: 30px;
+}
+
+.huruf-kecil{
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.huruf-besar{
+    margin-top: 70px;
+}
+
+.huruf-besar p{
+    color: #7D0518; 
+    font-size: 40px;
+}
+
+
+.huruf-kecil p{
+    font-size: 20px;
+}
+
+button{
+    background-color: #E06B1E;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 2px 2px 1px grey;
+}
+
+footer{
+    /* display: inline; */
+    padding: 20px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    /* background-color: #6D1D1D; */
+    color: #6D1D1D;
+    text-align: left;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+/* ------------------------
+    Style Buat Responsif
+   ------------------------
+*/
+
+/* Setengah Layar Browser */
+@media screen and (max-width: 800px) {
+    /* .content-box{
+
+    } */
+
+    .huruf-besar{
+        margin-top: 50px;
+    }
+
+    .huruf-besar p{
+        font-size: 20px;
+    }
+    .huruf-kecil p{
+        font-size: 14px;
+    }
+
+    .box-container img{
+        width: 240px;
+        height: 300px;
+    }
+
+    .box-container{
+        padding: 10px;
+    }
+    
+    button{
+        padding: 5px 25px;
+    }
+
+    footer img{
+        width: 200px;
+    }
+}
+
+/* Layar HP */
+/* @media screen and (max-width: 800px) {
+    .content-box{
+
+    }
+
+    .huruf-besar{
+    }
+
+    .huruf-besar p{
+    }
+    .huruf-kecil p{
+    }
+
+    .box-container img{
+    }
+
+    .box-container{
+    }
+    
+    button{
+    }
+
+    footer img{
+    }
+} */
